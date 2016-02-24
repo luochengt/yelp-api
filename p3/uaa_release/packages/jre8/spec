@@ -1,5 +1,0 @@
----
-name: jre8
-dependencies: []
-files:
-- jre8/jre-8u45-linux-i586.gz
