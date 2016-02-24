@@ -1,0 +1,6 @@
+---
+name: uaa
+dependencies:
+- tomcat
+files:
+- uaa/cloudfoundry-identity-uaa-2.2.0.war

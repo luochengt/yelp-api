@@ -1,0 +1,5 @@
+---
+blobstore:
+  s3:
+    access_key_id: asdfas
+    secret_access_key: asdfasdfa

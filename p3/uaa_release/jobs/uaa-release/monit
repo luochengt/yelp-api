@@ -1,0 +1,5 @@
+check process uaa_release
+  with pidfile /var/vcap/sys/run/uaa_release/uaa_release.pid
+  start program "/var/vcap/jobs/uaa_release/bin/monit_debugger uaa_release_ctl '/var/vcap/jobs/uaa_release/bin/uaa_release_ctl start'"
+  stop program "/var/vcap/jobs/uaa_release/bin/monit_debugger uaa_release_ctl '/var/vcap/jobs/uaa_release/bin/uaa_release_ctl stop'"
+  group vcap
